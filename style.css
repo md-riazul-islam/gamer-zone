@@ -12,7 +12,9 @@ span{
     border-radius: 48px;
     padding: 21px 40px;
     border: none;
-    color: white
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
 .btn-2{
     background-color: #4EC5F7;
@@ -20,6 +22,8 @@ span{
     padding: 21px 40px;
     border: none;
     color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* header style */
@@ -115,8 +119,39 @@ p{
 }
 
 
+ /* Online Games */
+ .online-games{
+    padding: 90px 90px;
+ }
 
+ .online-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+ }
+ .online-discribe{
+    text-align: center;
+ }
+ .cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+ }
 
+ .card{
+    
+    width: 342px;
+ }
+ .card-img{
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+ }
 
 
 
