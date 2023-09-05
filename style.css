@@ -156,6 +156,33 @@ p{
     border-radius: 16px;
  }
 
+ /* play instantly */
+ .play-instantly{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+ }
+ .discribtion{
+    padding: 0px 220px;
+    margin-top: 50px;
+ }
+ .images{
+    position: relative;
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+    background-image: url(./images/Rectangle\ 55.png);
+    background-repeat: no-repeat
+ }
+.single-img {
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+ }
+
 
  /* ctegories */
 
