@@ -1,10 +1,39 @@
 body{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
-nav{
+/* span */
+span{
+    color: #F948B2;
+}
+
+/* header style */
+header{
     
-    height: 130px;
+    
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;  
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    margin-left: 32px;
+}
+.header{
+    font-size: 45px;
 }
