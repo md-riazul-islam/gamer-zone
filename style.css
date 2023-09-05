@@ -7,6 +7,20 @@ body{
 span{
     color: #F948B2;
 }
+.btn{
+    background-color: #F948B2;
+    border-radius: 48px;
+    padding: 21px 40px;
+    border: none;
+    color: white
+}
+.btn-2{
+    background-color: #4EC5F7;
+    border-radius: 48px;
+    padding: 21px 40px;
+    border: none;
+    color: white;
+}
 
 /* header style */
 header{
@@ -34,6 +48,63 @@ nav ul li a{
     color: #3C354F;
     margin-left: 32px;
 }
+nav ul li :hover{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 8px 14px;
+}
 .header{
-    font-size: 45px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.icon{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+/* bunner section */
+.bunner{
+    display: flex;
+    
+}
+.text-area{
+    width: 50%;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+bunner-img{
+    width: 50%;
+}
+.title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.sub-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px
+}
+p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
 }
